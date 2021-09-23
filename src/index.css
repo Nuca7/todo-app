@@ -41,7 +41,7 @@ body {
   margin-bottom: 1rem;
 }
 
-.addTodoBox {
+.addTodoItem {
   background: hsl(235, 24%, 19%);
   display: flex;
   padding: 1rem;
@@ -63,29 +63,30 @@ form {
   color: hsl(234, 11%, 52%);
 }
 
-/* list */
-.todoList {
+/* Todo Items */
+.todoItems {
   margin-top: 1rem;
 }
 
-.listBox {
+.todoItem {
   background: hsl(235, 24%, 19%);
   display: flex;
   padding: 1rem;
   border-bottom: 1px solid hsl(237, 14%, 26%);
 }
 
-.listContent {
+.todoItemContent {
   display: flex;
   justify-content: space-between;
   flex-grow: 2;
 }
 
-.item.completed {
+.todoItemContent .completed {
   color: hsl(237, 14%, 26%);
   text-decoration: line-through;
 }
 
+/* todo items manipulation */
 .clear,
 .show {
   background: hsl(235, 24%, 19%);
