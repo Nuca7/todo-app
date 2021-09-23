@@ -91,7 +91,9 @@ function App() {
                 <CircleIcon show={completed} />
               </button>
               <div className="listContent">
-                <p>{title}</p>
+                <p className={`item ${completed ? "completed" : ""}`}>
+                  {title}
+                </p>
                 <button onClick={() => removeFromTodo(id)}>
                   <AiOutlineClose size="1.4em" color="hsl(233, 14%, 35%)" />
                 </button>

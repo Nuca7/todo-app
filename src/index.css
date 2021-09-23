@@ -81,6 +81,11 @@ form {
   flex-grow: 2;
 }
 
+.item.completed {
+  color: hsl(237, 14%, 26%);
+  text-decoration: line-through;
+}
+
 .clear,
 .show {
   background: hsl(235, 24%, 19%);
